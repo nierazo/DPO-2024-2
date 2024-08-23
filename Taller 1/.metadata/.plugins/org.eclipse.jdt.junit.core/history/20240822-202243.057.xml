@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="uniandes.dpoo.gasolinera.tests" project="nTaller1_Gasolinera" tests="35" started="35" failures="6" errors="0" ignored="0">
+  <testsuite name="uniandes.dpoo.gasolinera.tests.GasolineraTest" time="0.009" displayname="GasolineraTest" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.GasolineraTest]">
+    <testcase name="testGetEmpleado" classname="uniandes.dpoo.gasolinera.tests.GasolineraTest" time="0.0" displayname="testGetEmpleado()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.GasolineraTest]/[method:testGetEmpleado()]"/>
+    <testcase name="testVenderGasolinaPorPrecioSencillo" classname="uniandes.dpoo.gasolinera.tests.GasolineraTest" time="0.0" displayname="testVenderGasolinaPorPrecioSencillo()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.GasolineraTest]/[method:testVenderGasolinaPorPrecioSencillo()]">
+      <failure>
+        <expected>2.0689655172413794</expected>
+        <actual>-2.0689655172413794</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de galones vendidos en el surtidor no es correcta ==&gt; expected: &lt;2.0689655172413794&gt; but was: &lt;-2.0689655172413794&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at uniandes.dpoo.gasolinera.tests.GasolineraTest.testVenderGasolinaPorPrecioSencillo(GasolineraTest.java:288)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testConstructor1" classname="uniandes.dpoo.gasolinera.tests.GasolineraTest" time="0.001" displayname="testConstructor1()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.GasolineraTest]/[method:testConstructor1()]"/>
+    <testcase name="testConstructor2" classname="uniandes.dpoo.gasolinera.tests.GasolineraTest" time="0.002" displayname="testConstructor2()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.GasolineraTest]/[method:testConstructor2()]"/>
+    <testcase name="testVenderGasolinaPorCantidadInsuficiente" classname="uniandes.dpoo.gasolinera.tests.GasolineraTest" time="0.002" displayname="testVenderGasolinaPorCantidadInsuficiente()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.GasolineraTest]/[method:testVenderGasolinaPorCantidadInsuficiente()]">
+      <failure>
+        <expected>100.0</expected>
+        <actual>-100.0</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de galones vendidos en el surtidor no es correcta ==&gt; expected: &lt;100.0&gt; but was: &lt;-100.0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at uniandes.dpoo.gasolinera.tests.GasolineraTest.testVenderGasolinaPorCantidadInsuficiente(GasolineraTest.java:329)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testVenderGasolinaPorCantidadSencillo" classname="uniandes.dpoo.gasolinera.tests.GasolineraTest" time="0.002" displayname="testVenderGasolinaPorCantidadSencillo()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.GasolineraTest]/[method:testVenderGasolinaPorCantidadSencillo()]">
+      <failure>
+        <expected>10.0</expected>
+        <actual>-10.0</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de galones vendidos en el surtidor no es correcta ==&gt; expected: &lt;10.0&gt; but was: &lt;-10.0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at uniandes.dpoo.gasolinera.tests.GasolineraTest.testVenderGasolinaPorCantidadSencillo(GasolineraTest.java:308)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testCargarEstado" classname="uniandes.dpoo.gasolinera.tests.GasolineraTest" time="0.001" displayname="testCargarEstado()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.GasolineraTest]/[method:testCargarEstado()]"/>
+  </testsuite>
+  <testsuite name="uniandes.dpoo.gasolinera.tests.EmpleadoTest" time="0.002" displayname="EmpleadoTest" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.EmpleadoTest]">
+    <testcase name="testAgregarDinero" classname="uniandes.dpoo.gasolinera.tests.EmpleadoTest" time="0.002" displayname="testAgregarDinero()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.EmpleadoTest]/[method:testAgregarDinero()]"/>
+    <testcase name="testEmpleado" classname="uniandes.dpoo.gasolinera.tests.EmpleadoTest" time="0.0" displayname="testEmpleado()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.EmpleadoTest]/[method:testEmpleado()]"/>
+  </testsuite>
+  <testsuite name="uniandes.dpoo.gasolinera.tests.TipoGasolinaTest" time="0.002" displayname="TipoGasolinaTest" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.TipoGasolinaTest]">
+    <testcase name="testDespacharGasolinaInsuficiente" classname="uniandes.dpoo.gasolinera.tests.TipoGasolinaTest" time="0.0" displayname="testDespacharGasolinaInsuficiente()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.TipoGasolinaTest]/[method:testDespacharGasolinaInsuficiente()]"/>
+    <testcase name="testDespacharGasolinaOkVarios" classname="uniandes.dpoo.gasolinera.tests.TipoGasolinaTest" time="0.001" displayname="testDespacharGasolinaOkVarios()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.TipoGasolinaTest]/[method:testDespacharGasolinaOkVarios()]"/>
+    <testcase name="testDespacharGasolinaOk" classname="uniandes.dpoo.gasolinera.tests.TipoGasolinaTest" time="0.001" displayname="testDespacharGasolinaOk()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.TipoGasolinaTest]/[method:testDespacharGasolinaOk()]"/>
+  </testsuite>
+  <testsuite name="uniandes.dpoo.gasolinera.tests.SurtidorTest" time="0.009" displayname="SurtidorTest" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SurtidorTest]">
+    <testcase name="testVenderGasolinaVariasVentas" classname="uniandes.dpoo.gasolinera.tests.SurtidorTest" time="0.003" displayname="testVenderGasolinaVariasVentas()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SurtidorTest]/[method:testVenderGasolinaVariasVentas()]">
+      <failure>
+        <expected>7.0</expected>
+        <actual>-7.0</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de galones vendidos en el registro del surtidor no es correcta ==&gt; expected: &lt;7.0&gt; but was: &lt;-7.0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at uniandes.dpoo.gasolinera.tests.SurtidorTest.testVenderGasolinaVariasVentas(SurtidorTest.java:99)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testVenderGasolinaSimple" classname="uniandes.dpoo.gasolinera.tests.SurtidorTest" time="0.002" displayname="testVenderGasolinaSimple()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SurtidorTest]/[method:testVenderGasolinaSimple()]">
+      <failure>
+        <expected>50.0</expected>
+        <actual>-50.0</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de galones vendidos en el registro del surtidor no es correcta ==&gt; expected: &lt;50.0&gt; but was: &lt;-50.0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at uniandes.dpoo.gasolinera.tests.SurtidorTest.testVenderGasolinaSimple(SurtidorTest.java:77)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testGetTipoGasolina" classname="uniandes.dpoo.gasolinera.tests.SurtidorTest" time="0.001" displayname="testGetTipoGasolina()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SurtidorTest]/[method:testGetTipoGasolina()]"/>
+    <testcase name="testGetTiposGasolina" classname="uniandes.dpoo.gasolinera.tests.SurtidorTest" time="0.001" displayname="testGetTiposGasolina()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SurtidorTest]/[method:testGetTiposGasolina()]"/>
+    <testcase name="testVenderGasolinaVariosTipos" classname="uniandes.dpoo.gasolinera.tests.SurtidorTest" time="0.001" displayname="testVenderGasolinaVariosTipos()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SurtidorTest]/[method:testVenderGasolinaVariosTipos()]">
+      <failure>
+        <expected>5.0</expected>
+        <actual>-5.0</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de galones vendidos en el registro del surtidor no es correcta ==&gt; expected: &lt;5.0&gt; but was: &lt;-5.0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at uniandes.dpoo.gasolinera.tests.SurtidorTest.testVenderGasolinaVariosTipos(SurtidorTest.java:130)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.043" displayname="SorteoTest" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]">
+    <testcase name="testVariasOpciones" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.001" displayname="testVariasOpciones()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[method:testVariasOpciones()]"/>
+    <testcase name="testUnaOpcion" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.001" displayname="testUnaOpcion()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[method:testUnaOpcion()]"/>
+    <testsuite name="testBalanceado(uniandes.dpoo.gasolinera.tests.SorteoTest)" time="0.004" displayname="testBalanceado()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[test-template:testBalanceado()]">
+      <testcase name="testBalanceado" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.004" dynamicTest="true" displayname="repetition 1 of 15" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[test-template:testBalanceado()]/[test-template-invocation:#1]"/>
+      <testcase name="testBalanceado" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.001" dynamicTest="true" displayname="repetition 2 of 15" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[test-template:testBalanceado()]/[test-template-invocation:#2]"/>
+      <testcase name="testBalanceado" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.003" dynamicTest="true" displayname="repetition 3 of 15" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[test-template:testBalanceado()]/[test-template-invocation:#3]"/>
+      <testcase name="testBalanceado" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.002" dynamicTest="true" displayname="repetition 4 of 15" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[test-template:testBalanceado()]/[test-template-invocation:#4]"/>
+      <testcase name="testBalanceado" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.0" dynamicTest="true" displayname="repetition 5 of 15" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[test-template:testBalanceado()]/[test-template-invocation:#5]"/>
+      <testcase name="testBalanceado" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.001" dynamicTest="true" displayname="repetition 6 of 15" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[test-template:testBalanceado()]/[test-template-invocation:#6]"/>
+      <testcase name="testBalanceado" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.001" dynamicTest="true" displayname="repetition 7 of 15" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[test-template:testBalanceado()]/[test-template-invocation:#7]"/>
+      <testcase name="testBalanceado" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.001" dynamicTest="true" displayname="repetition 8 of 15" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[test-template:testBalanceado()]/[test-template-invocation:#8]"/>
+      <testcase name="testBalanceado" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.001" dynamicTest="true" displayname="repetition 9 of 15" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[test-template:testBalanceado()]/[test-template-invocation:#9]"/>
+      <testcase name="testBalanceado" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.001" dynamicTest="true" displayname="repetition 10 of 15" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[test-template:testBalanceado()]/[test-template-invocation:#10]"/>
+      <testcase name="testBalanceado" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.001" dynamicTest="true" displayname="repetition 11 of 15" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[test-template:testBalanceado()]/[test-template-invocation:#11]"/>
+      <testcase name="testBalanceado" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.001" dynamicTest="true" displayname="repetition 12 of 15" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[test-template:testBalanceado()]/[test-template-invocation:#12]"/>
+      <testcase name="testBalanceado" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.001" dynamicTest="true" displayname="repetition 13 of 15" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[test-template:testBalanceado()]/[test-template-invocation:#13]"/>
+      <testcase name="testBalanceado" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.0" dynamicTest="true" displayname="repetition 14 of 15" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[test-template:testBalanceado()]/[test-template-invocation:#14]"/>
+      <testcase name="testBalanceado" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.001" dynamicTest="true" displayname="repetition 15 of 15" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[test-template:testBalanceado()]/[test-template-invocation:#15]"/>
+    </testsuite>
+    <testcase name="testDosOpciones" classname="uniandes.dpoo.gasolinera.tests.SorteoTest" time="0.002" displayname="testDosOpciones()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.SorteoTest]/[method:testDosOpciones()]"/>
+  </testsuite>
+</testrun>

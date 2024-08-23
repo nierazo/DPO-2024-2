@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EmpleadoTest" project="nTaller1_Gasolinera" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="uniandes.dpoo.gasolinera.tests.EmpleadoTest" time="0.0" displayname="EmpleadoTest" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.EmpleadoTest]">
+    <testcase name="testAgregarDinero" classname="uniandes.dpoo.gasolinera.tests.EmpleadoTest" time="0.0" displayname="testAgregarDinero()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.EmpleadoTest]/[method:testAgregarDinero()]"/>
+    <testcase name="testEmpleado" classname="uniandes.dpoo.gasolinera.tests.EmpleadoTest" time="0.0" displayname="testEmpleado()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.gasolinera.tests.EmpleadoTest]/[method:testEmpleado()]"/>
+  </testsuite>
+</testrun>

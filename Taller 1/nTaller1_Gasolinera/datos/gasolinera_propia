@@ -1,0 +1,13 @@
+tipo:diesel:13000:10.0
+tipo:extra:20000:10.0
+tipo:lolita:21000:10.0
+tipo:corriente:15000:10.0
+surtidor:juan:diesel:0.0:extra:0.0:lolita:0.0:corriente:0.0
+surtidor:helena:diesel:0.0:extra:0.0:lolita:0.0:corriente:0.0
+surtidor:laura:diesel:0.0:extra:0.0:lolita:0.0:corriente:0.0
+surtidor:helena:diesel:0.0:extra:0.0:lolita:0.0:corriente:0.0
+empleado:carlos:0
+empleado:helena:0
+empleado:laura:0
+empleado:jose:0
+empleado:juan:0
