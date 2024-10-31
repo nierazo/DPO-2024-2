@@ -1,0 +1,26 @@
+!SESSION 2024-08-29 15:25:44.862 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/nataliaerazo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/nataliaerazo/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-29 15:25:46.853
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-29 15:25:54.782
+!MESSAGE Logback config file: /Users/nataliaerazo/Desktop/Universidad/DPO/DPO-2024-2/nTaller1_Gasolinera/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+!SESSION 2024-08-29 15:26:14.062 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/nataliaerazo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/nataliaerazo/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-29 15:26:15.821
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-08-29 15:26:19.898
+!MESSAGE Logback config file: /Users/nataliaerazo/Desktop/Universidad/DPO/DPO-2024-2/nTaller1_Gasolinera/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
